@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    margin-top: 10px;
+} 
+.row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    height: 100px;
+}
+.col{
+    background-color: rgb(21, 207, 145);
+    color: white;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.col-2{
+    background-color: rgb(21, 207, 145);
+    color: white;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.col-3{
+    background-color: rgb(21, 207, 145);
+    color: white;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
