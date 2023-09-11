@@ -1,168 +1,238 @@
-*{
+* {
     border: 0px;
     outline: 0px;
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
 }
+
 /* NavBar */
-.nav{
+.nav {
     background-color: black;
     color: white;
     padding: 20px;
     display: flex;
     justify-content: space-around;
 }
-.links{
-    display: flex; 
+
+.links {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 150px;
-    margin-right: 200px;
-    gap: 60px;
+    gap: 50px;
+    list-style-type: none;
 }
-.profile{
+
+.profile {
     font-size: xx-large;
 }
-button{
+
+#signout {
     background-color: rgb(9, 129, 89);
-    height: 30px; width: 100px;
+    height: 30px;
+    width: 100px;
     font-size: medium;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /* Container for Whole Page */
-.container{
+.container {
     display: flex;
 }
-.columnsA{
+
+.columnsA {
     margin: 1.5%;
     margin-left: 20%;
 }
+
 /* Profile */
-.main{
+.main {
     box-shadow: 5px 5px 5px lightblue;
     background-color: aliceblue;
-    height: 500px; width: 750px;
+    height: 500px;
+    width: 750px;
 }
-.header{
-    height: 100px; width: 100%;
+
+.header {
+    height: 100px;
+    width: 100%;
     background-color: rgb(7, 190, 190);
 }
-#janeimg{
+
+#janeimg {
     position: absolute;
     margin-top: 40px;
     margin-left: 70px;
     border-radius: 50%;
-    height: 150px; width: 150px;
+    height: 150px;
+    width: 150px;
 }
-#Jane{
+
+#Jane {
     font-size: xx-large;
     margin-left: 10%;
     margin-top: 15%;
 }
-#mapmark{
-    height: 20px; width: 15px;
+
+#mapmark {
+    height: 20px;
+    width: 15px;
 }
-#Seattle{
+
+#Seattle {
     font-size: large;
     margin-left: 10%;
     margin-top: 2%;
 }
-#desc{
+
+#desc {
     margin-left: 10%;
     margin-top: 5%;
 }
-#gear{
-    height: 20px; width: 20px;
+
+#gear {
+    height: 20px;
+    width: 20px;
     margin-left: 10%;
     margin-top: 10%;
 }
+
 /* #edit{
     margin-left: 10%;
 } */
 
 /* Education */
-.submain{
+.submain {
     box-shadow: 5px 5px 5px lightblue;
     background-color: aliceblue;
-    height: 500px; width: 750px;
+    height: 500px;
+    width: 750px;
     margin-top: 30px;
 }
-.subheader{
-    height: 75px; width: 100%;
+
+.subheader {
+    height: 75px;
+    width: 100%;
     background-color: grey;
     font-size: x-large;
     color: white;
     display: flex;
     align-items: center;
 }
-#Ed1{
+
+#Ed1 {
     font-size: x-large;
     margin-left: 4%;
     margin-top: 5%;
 }
-#date1{
+
+#date1 {
     font-size: medium;
     margin-left: 6%;
     margin-top: 2%;
     color: gray;
 }
-#accomp{
+
+#accomp {
     margin-left: 4%;
     margin-top: 2%;
     font-size: large;
 }
 
 /* Column Category */
-.columnsB{
+.columnsB {
     display: inline-block;
 }
+
 /* vvv Column 1 (Requests)vvv  */
-.column1{
+.column1 {
     box-shadow: 5px 5px 5px lightblue;
     background-color: aliceblue;
-    height: 250px; width: 400px;
+    height: 250px;
+    width: 400px;
     margin-top: 30px;
 }
-.header1{
-    height: 75px; width: 100%;
+
+.header1 {
+    height: 75px;
+    width: 100%;
     background-color: grey;
     font-size: x-large;
     color: white;
     display: flex;
     align-items: center;
 }
-.profilepic{
+
+#connectionreqs {
     border-radius: 50%;
-    height: 40px; width: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: large;
+    text-align: center;
 }
-.acc_dec{
+
+.reqprofile{
+    display: inline;
+}
+
+.profilepic {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.acc_dec {
     height: 30px; width: 30px;
+    display: flex;
+    margin-left: 175px;
 }
+
 /* Column 2 (Connections) */
-.column2{
+.column2 {
     box-shadow: 5px 5px 5px lightblue;
     background-color: aliceblue;
-    height: 500px; width: 400px;
+    height: 500px;
+    width: 400px;
     margin-top: 30px;
 }
-.name{
+
+#yourconnections {
+    border-radius: 50%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: large;
+    text-align: center;
+}
+
+.name {
     font-size: x-large;
     margin-top: 10%;
     margin-left: 5%;
+    display: flex;
+    align-items: center;
 }
-.header2{
-    height: 75px; width: 100%;
+
+.header2 {
+    height: 75px;
+    width: 100%;
     background-color: grey;
     font-size: x-large;
     color: white;
     display: flex;
     align-items: center;
 }
-#viewmore{
+
+#viewmore {
     display: flex;
     margin-left: 5%;
     margin-top: 12%;

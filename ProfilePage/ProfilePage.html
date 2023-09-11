@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <div class="nav">
         <ul class="links">
@@ -14,54 +16,67 @@
             <li class="myprofile">My Profile</li>
             <li class="connections">Find Connections</li>
         </ul>
-            <button>Sign Out</button>
+        <button id="signout">Sign Out</button>
     </div>
-<div class="container">
-    <div class="columnsA">
-        <div class="main">
-            <p class="header"><img src="ProfilePictures/jane-m.jpg" alt="Jane-M" id="janeimg"></p>
-            <p id="Jane">Jane Doe</p>
-            <p id="Seattle"><img src="Icons/map-marker.png" alt="mapmark" id="mapmark">
-                Seattle</p>
-            <p id="desc">Developer | Engineer | Problem Solver
-                Master of shadows and the Internet!</p>
-            <img src="Icons/gear.png" alt="gear" id="gear">
-            <a href="#" id="edit">edit profile</a>
+    <div class="container">
+        <div class="columnsA">
+            <div class="main">
+                <p class="header"><img src="ProfilePictures/jane-m.jpg" alt="Jane-M" id="janeimg"></p>
+                <p id="Jane">Jane Doe</p>
+                <p id="Seattle"><img src="Icons/map-marker.png" alt="mapmark" id="mapmark">
+                    Seattle</p>
+                <p id="desc">Developer | Engineer | Problem Solver
+                    Master of shadows and the Internet!</p>
+                <img src="Icons/gear.png" alt="gear" id="gear">
+                <a href="#" id="edit">edit profile</a>
+            </div>
+            <div class="submain">
+                <p class="subheader">Education</p>
+                <p id="Ed1">Coding Dojo - Full Stack Bootcamp</p>
+                <p id="date1">Dec 2019 - Mar 2020</p>
+                <p id="accomp">Triple black belt in Python, MERN, and C#</p>
+            </div>
         </div>
-        <div class="submain">
-            <p class="subheader">Education</p>
-            <p id="Ed1">Coding Dojo - Full Stack Bootcamp</p>
-            <p id="date1">Dec 2019 - Mar 2020</p>
-            <p id="accomp">Triple black belt in Python, MERN, and C#</p>
+        <div class="columnsB">
+            <div class="column1">
+                <p class="header1">
+                    <button id="connectionreqs">2</button>
+                    Connection Requests
+                </p>
+                <div class="reqprofile">
+                    <div class="name">
+                        <img src="ProfilePictures/todd-s.jpg" alt="Todd" class="profilepic">
+                        <p>Todd E</p>
+                        <div class="acc_dec">
+                            <img src="Icons/accept-circle.png" alt="accept">
+                            <img src="Icons/close-circle.png" alt="decline">
+                        </div>
+                    </div>
+                    <div class="name"><img src="ProfilePictures/phil-s.jpg" alt="Phil" class="profilepic">
+                        <p>Phil K</p>
+                        <div class="acc_dec">
+                            <img src="Icons/accept-circle.png" alt="accept">
+                            <img src="Icons/close-circle.png" alt="decline">
+                        </div>
+                    </div>
+                </div>
+                <div class="column2">
+                    <p class="header2">
+                        <button id="yourconnections">500</button>
+                        Connections
+                    </p>
+                    <p class="name"><img src="ProfilePictures/adrien-s.jpg" alt="Adrien" class="profilepic">
+                        Adrien D</p>
+                    <p class="name"><img src="ProfilePictures/anne-s.jpg" alt="Anne" class="profilepic">
+                        Anne J</p>
+                    <p class="name"><img src="ProfilePictures/alayne-s.jpg" alt="Alayne" class="profilepic">
+                        Alayne T</p>
+                    <p class="name"><img src="ProfilePictures/arry-s.jpg" alt="Arry" class="profilepic">
+                        Arry Y</p>
+                    <a href="#" id="viewmore">View More</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="columnsB">
-        <div class="column1">
-            <p class="header1">Connection Requests</p>
-            <p class="name"><img src="ProfilePictures/todd-s.jpg" alt="Todd" class="profilepic">
-                Todd E 
-                <img src="Icons/accept-circle.png" alt="accept" class="acc_dec"> 
-                <img src="Icons/close-circle.png" alt="decline" class="acc_dec"> 
-            </p>
-            <p class="name"><img src="ProfilePictures/phil-s.jpg" alt="Phil" class="profilepic">
-                Phil K
-                <img src="Icons/accept-circle.png" alt="accept" class="acc_dec"> 
-                <img src="Icons/close-circle.png" alt="decline" class="acc_dec"> 
-            </p>
-        </div>
-        <div class="column2">
-            <p class="header2">Your Connections</p>
-            <p class="name"><img src="ProfilePictures/adrien-s.jpg" alt="Adrien" class="profilepic">
-                Adrien D</p>
-            <p class="name"><img src="ProfilePictures/anne-s.jpg" alt="Anne" class="profilepic">
-                Anne J</p>
-            <p class="name"><img src="ProfilePictures/alayne-s.jpg" alt="Alayne" class="profilepic">
-                Alayne T</p>
-            <p class="name"><img src="ProfilePictures/arry-s.jpg" alt="Arry" class="profilepic">
-                Arry Y</p>
-            <a href="#" id="viewmore">View More</a>
-        </div>
-    </div>
-</div>
 </body>
+
 </html>
