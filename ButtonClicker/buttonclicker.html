@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 id="dojonary">Dojonary</h1>
+        <input type="text" placeholder="Search" id="search">
+        <button onclick="changeLog(this)" id="login">Login</button>
+    </div>
+    <div id="container"> <!-- Container Tag -->
+        <!-- Columns Leftside Start -->
+        <div id="columnA">
+            <div class="define">
+                <div class="leftside">
+                    <h1 class="ninja">ninja</h1>
+                    <h3 class="noun">noun</h3>
+                    <p class="plural">Plural: ninjas</p>
+                    <button onclick="liked(this)" class="likes">
+                        13 likes
+                    </button>
+                </div>
+                <p class="definition">
+                    A practictioner skilled in the
+                    <a href="#">Japanese</a>
+                    art of
+                    <a href="#">ninjutsu</a>
+                </p>
+            </div>
+            <div class="define">
+                <div class="leftside">
+                    <h1 class="ninja">ninja</h1>
+                    <h3 class="noun">noun</h3>
+                    <p class="plural">Plural: ninjas</p>
+                    <button onclick="liked(this)" class="likes">
+                        37 likes
+                    </button>
+                </div>
+                <p class="definition">
+                    A
+                    <a href="#">programmer</a>
+                    who breaks down problems with
+                    <a href="#">zen</a>
+                    - like focus <!-- Forced Space because of <a>?-->
+                </p>
+            </div>
+        </div>
+        <!-- Columns Leftside End -->
+        <!-- Add Definition Box -->
+        <div id="addDefBox">
+            <p id="you">Dojonary is defined by YOU</p>
+            <button onclick="remove(this)" id="addDef">
+                Add Definition
+            </button>
+        </div>
+        <!-- Add Definition Box End -->
+    </div> <!-- Container Tag -->
+    <script src=script.js> </script>
+</body>
+
+</html>
