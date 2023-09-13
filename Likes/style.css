@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Navbar */
+#nav{
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+#Network{
+    font-size: 40px;
+    color: white;
+}
+/* Title Header */
+#title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+/* Container (Under Feed) */
+#container{
+    display: flex;
+    gap: 100px;
+}
+/* Left Side */
+#leftside{
+    height: 350px; width: 200px;
+    border: 4px solid black;
+    margin-left: 15%;
+    /* display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+}
+
+#gojocat{
+    height: 100px; width: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#addavi{
+    font-size: large;
+}
+
+#mainname{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+/* Right Side & Header & Name*/
+#rightcolumn{
+    height: 720px; width: 1028px;
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedBox{
+    height: 200px; width: 1028px;
+    border: 4px solid black;
+}
+
+.feedHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+#feedName{
+    font-size: xx-large;
+    margin: 30px;
+}
+/* Likes Corner */
+.likeCorn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.likes{
+    font-size: larger;
+}
+
+#likestext{
+    font-size: larger;
+}
+
+.likeBut{
+    height: 40px; width: 80px;
+    font-size: x-large;
+    background-color: rgb(230, 230, 11);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* Feed Message */
+.feedMsg{
+    font-size: x-large;
+    margin-left: 30px;
+    margin-top: 20px;
+}

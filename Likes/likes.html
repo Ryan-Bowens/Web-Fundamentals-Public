@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="nav">
+        <h1 id="Network">Network</h1>
+    </div>
+    <!-- Page Title -->
+    <div id="title">
+        <h1>Your Feed</h1>
+    </div>
+    <div id="container">
+        <!-- Profile Side (Left) -->
+        <div id="leftside">
+            <img src="/likes/gojo-cat.png" alt="gojo-cat" id="gojocat">
+            <a href="#">
+                <p id="addavi">Add an avatar
+            </a></p>
+            <p id="mainname">James Cat</p>
+        </div>
+        <!-- Feed Side (Right) -->
+        <div id="rightcolumn">
+            <!-- Box 1 -->
+            <div class="feedBox">
+                <div class="feedHeader">
+                    <h2 id="feedName">Neil M</h2>
+                    <!-- Right Corner -->
+                    <div class="likeCorn">
+                        <p class="likes" id="likeA">9</p>
+                        <p id="likestext">like(s)</p>
+                        <button class="likeBut" onclick="like('#likeA')">Like</button>
+                    </div>
+                </div>
+                <!-- Feed Message -->
+                <p class="feedMsg">
+                    I just set up this new discord bot, let me know what you all think.
+                    <a href="#">link</a>
+                </p>
+            </div>
+            <!-- Box 2 -->
+            <div class="feedBox">
+                <div class="feedHeader">
+                    <h2 id="feedName">Nichole K</h2>
+                    <!-- Right Corner -->
+                    <div class="likeCorn">
+                        <p class="likes" id="likeB">12</p>
+                        <p id="likestext">like(s)</p>
+                        <button class="likeBut" onclick="like('#likeB')">Like</button>
+                    </div>
+                </div>
+                <!-- Feed Message -->
+                <p class="feedMsg">
+                    Just finished my
+                    <a href="#">next comic</a>,
+                    check it out.         <!-- Getting rid of extra space -->
+                </p>
+            </div>
+            <!-- Box 3 (WIP) -->
+            <div class="feedBox">
+                <div class="feedHeader">
+                    <h2 id="feedName">Jim R</h2>
+                    <!-- Right Corner -->
+                    <div class="likeCorn">
+                        <p class="likes" id="likeC">9</p>
+                        <p id="likestext">like(s)</p>
+                        <button class="likeBut" onclick="like('#likeC')">Like</button>
+                    </div>
+                </div>
+                <!-- Feed Message -->
+                <p class="feedMsg">
+                    I can't stop listening to the
+                    <a href="#">new album</a>.
+                    Who else is liking it?
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src=script.js> </script>
+</body>
+
+</html>
